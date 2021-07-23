@@ -1,0 +1,146 @@
+.nopad {
+    padding: 0;
+}
+
+
+/* Get user btn */
+
+.button {
+    border: none;
+ 
+    padding: 11px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #f7df08;
+    color: #000000;
+    border: 2px solid #10318f;
+    float: right;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: white;
+    border: 2px solid #10318f;
+    box-shadow: 0 4px 8px 0 #000000;
+}
+
+/* User card btn */
+
+.card {
+    transition: all 0.4s ;
+    width: 100%;
+    background-color: #57bff0;
+ 
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 3px solid #57bff0 ;
+}
+
+.card:hover {
+    background-color: rgb(248, 198, 33);
+    
+    cursor: pointer;
+    border: 3px solid rgb(248, 198, 33) ;
+    box-shadow: 0 4px 8px 0 #000000;
+}
+
+.row img {
+    border-radius: 100%;
+}
+
+.container {
+    padding: 15px 40px;
+    font-size: 17px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .Navbar .brand {
+        font-size: 20px;
+    }
+    .container {
+        padding: 2px 16px;
+        font-size: 18px;
+    }
+    .email {
+        font-size: 12px;
+    }
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    word-break: break-all
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="cards-"] {
+    float: left;
+    padding: 10px;
+}
+
+.cards-1 {
+    width: 8.33%;
+}
+
+.cards-2 {
+    width: 16.66%;
+}
+
+.cards-3 {
+    width: 25%;
+}
+
+.cards-4 {
+    width: 33.33%;
+}
+
+.cards-5 {
+    width: 41.66%;
+}
+
+.cards-6 {
+    width: 50%;
+}
+
+.cards-7 {
+    width: 58.33%;
+}
+
+.cards-8 {
+    width: 66.66%;
+}
+
+.cards-9 {
+    width: 75%;
+}
+
+.cards-10 {
+    width: 83.33%;
+}
+
+.cards-11 {
+    width: 91.66%;
+}
+
+.cards-12 {
+    width: 100%;
+}
+
